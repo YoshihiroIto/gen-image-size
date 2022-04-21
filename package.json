@@ -1,9 +1,17 @@
 {
-  "name": "gen_license",
+  "name": "@YoshihiroIto/gen-image-size",
   "version": "1.0.0",
   "main": "main.ts",
   "type": "module",
   "license": "MIT",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YoshihiroIto/gen-image-size.git"
+  },
   "dependencies": {
     "glob": "^8.0.1",
     "image-size": "^1.0.1",
